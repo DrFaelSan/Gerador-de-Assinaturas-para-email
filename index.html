@@ -1,0 +1,421 @@
+<!-- Bootstrap 3.3.7 -->
+<!DOCTYPE html>
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/imgs/favicon.png" rel="shortcut icon">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- teste -->
+    <!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]-->
+    <style>
+        @font-face {
+            font-family: "Cambria Math";
+            panose-1: 2 4 5 3 5 4 6 3 2 4;
+        }
+        
+        @font-face {
+            font-family: Calibri;
+            panose-1: 2 15 5 2 2 2 4 3 2 4;
+        }
+        
+        @font-face {
+            font-family: "Flama Light";
+            panose-1: 2 0 0 0 0 0 0 0 0 0;
+            src: url("./fonts/Flama-Light.otf") format("opentype");
+            mso-font-charset: 0;
+            mso-generic-font-family: modern;
+            mso-font-format: other;
+            mso-font-pitch: variable;
+            mso-font-signature: -1610612561 1073750139 0 0 139 0;
+        }
+        
+        @font-face {
+            font-family: "Flama Medium";
+            panose-1: 2 0 0 0 0 0 0 0 0 0;
+            src: url("./fonts/Flama-Medium.otf") format("opentype");
+            mso-font-charset: 0;
+            mso-generic-font-family: modern;
+            mso-font-format: other;
+            mso-font-pitch: variable;
+            mso-font-signature: -1610612561 1073750139 0 0 139 0;
+        }
+        
+        @font-face {
+            font-family: Flama;
+            panose-1: 0 0 0 0 0 0 0 0 0 0;
+            font-weight: bold;
+            src: url("./fonts/Flama-Bold.otf") format("opentype");
+            mso-font-charset: 0;
+            mso-generic-font-family: modern;
+            mso-font-format: other;
+            mso-font-pitch: variable;
+            mso-font-signature: -2147483473 1342185546 0 0 273 0;
+        }
+        /* Style Definitions */
+        
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0cm;
+            font-size: 11.0pt;
+            font-family: "Calibri", sans-serif;
+            mso-fareast-language: EN-US;
+        }
+        
+        span.EstiloDeEmail17 {
+            mso-style-type: personal-compose;
+            font-family: "Calibri", sans-serif;
+            color: windowtext;
+        }
+        
+        .MsoChpDefault {
+            mso-style-type: export-only;
+            font-family: "Calibri", sans-serif;
+            mso-fareast-language: EN-US;
+        }
+        
+        @page WordSection1 {
+            size: 612.0pt 792.0pt;
+            margin: 70.85pt 3.0cm 70.85pt 3.0cm;
+        }
+        
+        div.WordSection1 {
+            page: WordSection1;
+        }
+    </style>
+    <!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]-->
+    <!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+
+    <meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+    <meta name=Generator content="Microsoft Word 15 (filtered medium)">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word 15">
+    <meta name="Originator" content="Microsoft Word 15">
+    <!-- fim do teste -->
+
+
+    <title>Gerador de Assinaturas - CM Comandos</title>
+</head>
+
+<body >
+    <div class="container ">
+        <h2 class="text-center">Gerador de Assinatura</h2>
+        <br>
+
+        <!-- Formulário do Dados -->
+        <form class="form-horizontal">
+
+            <div class="form-group">
+                <label for="nome" class="col-sm-2 control-label">Nome</label>
+                <div name="name" class="col-sm-10">
+                    <input name="name" type="text" class="form-control" id="nome" placeholder="João Fictício" value="" autocomplete maxlength="50">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="cargo" class="col-sm-2 control-label">Cargo exercido</label>
+                <div class="col-sm-10">
+                    <input name="cargo" type="text" class="form-control" id="cargo" placeholder="Cargo" value="" autocomplete maxlength="50">
+                </div>
+            </div>
+
+            <!-- <div class="form-group">
+                <label for="email" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                    <div class="input-group">
+                        <input name="username" type="text" class="form-control" id="email" placeholder="nome.funcionario" value="" autocomplete maxlength="25">
+                        <div class="input-group-addon email">@cmcomandos.com.br </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="form-group">
+                <label for="tel" class="col-sm-2 control-label">Ramal</label>
+                <div class="col-sm-10">
+                    <!-- TODO:Se quiser colocar o input do telefone -->
+                    <!--<input name="tel" type="text" class="form-control" id="tel" placeholder="(31) 3272-0000 | (XX) 99999-1111" value="" autocomplete  maxlength="50">-->
+                    <div class="input-group">
+                        <div class="input-group-addon email">+55 11 5696 - </div>
+                        <input name="tel" type="text" class="form-control" id="tel" placeholder="0000" value="" autocomplete maxlength="25">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="cel" class="col-sm-2 control-label">Celular</label>
+                <div class="col-sm-10">
+                    <input name="cel" class="form-control" id="cel" onkeypress="mascara(this, telefone)" maxlength="15" placeholder="(__) _____-____" type="text">
+                </div>
+                <br>
+                <br>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="button" class="btn btn-default" id="refresh" onclick="gerar()"> Gerar Assinatura </button>
+                    </div>
+                </div>
+
+        </form>
+
+
+        <div id="alertdiv" class="alert alert-dismissible hidden" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span>
+        </button> <span id="alerttext">Text</span>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Outlook</button>
+            </div>
+             <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-lg">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Como inserir a assinatura no Outlook</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <embed src="./367996_237_2000232286.pdf" frameborder="0" width="100%" height="400px">
+                           
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">ThunderBird</button>
+            </div>
+             <!-- Modal -->
+            <div id="myModal1" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-lg">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Como inserir a assinatura no ThunderBird</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <embed src="./368009_237_2000232299.pdf" frameborder="0" width="100%" height="400px">
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="panel-group" id="accordion">
+            <div class="panel panel-default" id="panel">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-target="#collapseTwo" href="#collapseTwo" class="collapsed">
+                        Como colocar a assinatura no Outlook
+                    </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <img src="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="panel-group" id="accordion1">
+            <div class="panel panel-default" id="panel1">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-target="#collapseTwo1" href="#collapseTwo1" class="collapsed">
+                        Como colocar a assinatura no ThunderBird
+                    </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <img src="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <hr> -->
+
+        <br>
+        <h4>Sua Assinatura</h2>
+
+            <div id="assinatura" class="well">
+                <div class="text-muted text-center small">
+                    Clique no botão Gerar para criar uma assinatura
+                </div>
+                <script type="template/html" id="t2">
+                    <footer>
+                        <div class="assinatura" id="assinaturaEmail">
+                            <div class=WordSection1>
+                                <p class=MsoNormal>
+                                    <o:p>&nbsp;</o:p>
+                                </p>
+                                <p class=MsoNormal><span style='color:#000000;font-size:10.0pt;font-family:"Arial",sans-serif;mso-fareast-language:PT-BR'>&nbsp; Atenciosamente,<o:p></o:p></span></p>
+                                <p class=MsoNormal><span style='color:#000000;font-size:10.0pt;font-family:"Arial",sans-serif;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+                                <p class=MsoNormal><span style='color:#000000;font-size:12.0pt;font-family:Flama;font-weight: bold;mso-fareast-language:PT-BR'>&nbsp; {{this.nome}}</span><span style='font-size:12.0pt;font-family:Flama;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+                                <p class=MsoNormal><span style='font-size:10.0pt;font-family:"Flama Medium";color:#7F7F7F;mso-fareast-language:PT-BR'>&nbsp; {{this.cargo}}</span>
+                                    <span style='font-size:10.0pt;font-family:"Flama Medium";color:#7F7F7F;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+                                <p class=MsoNormal><span style='font-size:10.0pt;font-family:"Flama Light";color:#7F7F7F;mso-fareast-language:PT-BR'>&nbsp; DDR:&nbsp;&nbsp;&nbsp;&nbsp; (11)&nbsp;&nbsp;&nbsp; 5696-{{this.tel}}<o:p></o:p></span></p>
+                                <p id="celX" class=MsoNormal><span style='font-size:10.0pt;font-family:"Flama Light";color:#7F7F7F;mso-fareast-language:PT-BR'>&nbsp; Celular: {{this.cel}} <o:p></o:p></span></p>
+                                <p class=MsoNormal><span style='font-size:10.0pt;font-family:"Flama Light";color:#7F7F7F;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+
+                                <p class=MsoNormal><a href="https://www.cmcomandos.com.br/" target="_blank"><span style='font-size:10.0pt;font-family:"Flama Light";color:#7F7F7F;mso-fareast-language:PT-BR'><img width=343 height=150 style='width:3.5729in;height:1.5625in' id="Imagem_x0020_1" 
+                                src="data:image/jpeg;base64,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"
+                
+                                <o:p></o:p></span></a></p>
+                                <meta name="ProgId" content="Word.Document">
+                                <meta name="Generator" content="Microsoft Word 15">
+                                <meta name="Originator" content="Microsoft Word 15">
+                                <style>
+                                /* Font Definitions */
+                                    
+                                    @font-face {
+                                        font-family: "Cambria Math";
+                                        panose-1: 2 4 5 3 5 4 6 3 2 4;
+                                        mso-font-charset: 0;
+                                        mso-generic-font-family: roman;
+                                        mso-font-pitch: variable;
+                                        mso-font-signature: -536870145 1107305727 0 0 415 0;
+                                    }
+                                    
+                                    @font-face {
+                                        font-family: Calibri;
+                                        panose-1: 2 15 5 2 2 2 4 3 2 4;
+                                        mso-font-charset: 0;
+                                        mso-generic-font-family: swiss;
+                                        mso-font-pitch: variable;
+                                        mso-font-signature: -520092929 1073786111 9 0 415 0;
+                                    }
+                                    
+                                    @font-face {
+                                        font-family: "Flama Light";
+                                        panose-1: 2 0 0 0 0 0 0 0 0 0;
+                                        src: url("./fonts/Flama-Light.otf") format("opentype");
+                                        mso-font-charset: 0;
+                                        mso-generic-font-family: modern;
+                                        mso-font-format: other;
+                                        mso-font-pitch: variable;
+                                        mso-font-signature: -1610612561 1073750139 0 0 139 0;
+                                    }
+                                    
+                                    @font-face {
+                                        font-family: "Flama Medium";
+                                        panose-1: 2 0 0 0 0 0 0 0 0 0;
+                                        src: url("./fonts/Flama-Medium.otf") format("opentype");
+                                        mso-font-charset: 0;
+                                        mso-generic-font-family: modern;
+                                        mso-font-format: other;
+                                        mso-font-pitch: variable;
+                                        mso-font-signature: -1610612561 1073750139 0 0 139 0;
+                                    }
+                                    
+                                    @font-face {
+                                        font-family: Flama;
+                                        panose-1: 0 0 0 0 0 0 0 0 0 0;
+                                        font-weight: bold;
+                                        src: url("./fonts/Flama-Bold.otf") format("opentype");
+                                        mso-font-charset: 0;
+                                        mso-generic-font-family: modern;
+                                        mso-font-format: other;
+                                        mso-font-pitch: variable;
+                                        mso-font-signature: -2147483473 1342185546 0 0 273 0;
+                                    }
+                                    /* Style Definitions */
+                                    
+                                    p.MsoNormal,
+                                    li.MsoNormal,
+                                    div.MsoNormal {
+                                        mso-style-unhide: no;
+                                        mso-style-qformat: yes;
+                                        mso-style-parent: "";
+                                        margin: 0cm;
+                                        margin-bottom: .0001pt;
+                                        mso-pagination: widow-orphan;
+                                        font-size: 11.0pt;
+                                        font-family: "Calibri", sans-serif;
+                                        mso-fareast-font-family: Calibri;
+                                        mso-fareast-theme-font: minor-latin;
+                                        mso-fareast-language: EN-US;
+                                    }
+                                    
+                                    .MsoChpDefault {
+                                        mso-style-type: export-only;
+                                        mso-default-props: yes;
+                                        font-size: 10.0pt;
+                                        mso-ansi-font-size: 10.0pt;
+                                        mso-bidi-font-size: 10.0pt;
+                                    }
+                                    
+                                    size:612.0pt 792.0pt;
+                                    margin:70.85pt 3.0cm 70.85pt 3.0cm;
+                                    mso-header-margin:36.0pt;
+                                    mso-footer-margin:36.0pt;
+                                    mso-paper-source:0;
+                                }
+                                div.WordSection1 {
+                                    page: WordSection1;
+                                }
+                                </style>
+                            </div>
+                        </div>
+                    </footer>
+                </script>
+            </div>
+
+            <br>
+
+            <h4>Código Fonte</h4>
+            <br>
+            <div class="well">
+                <span class="assinaturaCode"></span>
+            </div>
+            <br>
+            <br>
+            <footer>
+                <div class="footer text-center text-muted small">T.I - CM Comandos &copy; 2020</div>
+            </footer>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            <script src="./js/index.js"></script>
+</body>
+
+</html>
